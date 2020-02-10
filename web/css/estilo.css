@@ -1,0 +1,326 @@
+
+header{
+    text-align: center;
+    border-bottom: solid;
+    border-bottom-color: crimson;
+}
+
+.header-no-border{
+    border-bottom: none;
+}
+
+h4{
+    text-align: center;
+}
+
+#titulo-pagina{
+    text-align: center;
+}
+
+#selec-estudiantes{
+    height: 40px;
+    width: 20%;
+}
+
+#formulario-ingreso{
+    text-align: center;
+    border: solid;
+    border-color: #9f9f9f;
+    border-radius: 10px;
+    width: 40%;
+}
+#formulario-crear-materia{
+    width: 40%;
+    border: solid;
+    border-color: #9f9f9f;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+#formulario-ingreso input{
+    width: 70%;
+}
+#formulario-ingreso select{
+     width: 70%;
+   
+}
+
+#div-inicial{
+    text-align: center;
+}
+
+#formulario-notas{
+    padding-top: 20px;
+}
+
+.botones{
+    text-align: center;
+}
+
+.notas{
+    width: 90px;   
+}
+
+.form-notas{
+    border: solid;
+    border-color: #9f9f9f;
+    border-radius: 8px;
+    padding: 10px;
+}
+    
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gainsboro;
+    text-align: center;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#formulario-crear-estudiante{
+    width: 40%;
+    border: solid;
+    border-color: #9f9f9f;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+input, select{
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #9f9f9f;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+button{
+    background-color: crimson;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover {
+    color: black;
+    background-color: #ccc;
+}
+
+table{
+    text-align: center;
+}
+
+th, td {
+    padding: 8px;
+}
+
+.pag-aprov{
+    text-align: center;
+}
+
+#tabla-materias button{
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#tabla-estudiantes button{
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#tabla-estudiantes #boton-ingresar-notas{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+#formulario-agregar-estudiante{
+    text-align: center;
+}
+
+.navigation-bar ul{
+  list-style-type: none;
+  margin:0 ;
+  padding: 0;
+  overflow: hidden;
+  background-color: crimson;
+  margin-bottom: 40px;
+}
+
+#left-button-vista-materia{
+    float:left;
+}
+
+.navigation-bar li{
+  float: right;
+}
+
+.navigation-bar li button{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 0;
+    border-radius: 0;
+}
+
+.navigation-bar li button:hover:not(.active) {
+    color: black;
+    background-color: #ccc;
+}
+
+#ovelay-mensaje-eliminar-materia{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#mensaje-eliminar-materia {
+    border: solid;
+    border-color: #9f9f9f;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+#imp-formulario-creacion-materia{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#imp-formulario-creacion-estudiante{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#ovelay-mensaje-eliminar-estudiante{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#mensaje-eliminar-estudiante {
+    border: solid;
+    border-color: #9f9f9f;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+#ovelay-mensaje-primer-registro-notas{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#mensaje-primer-registro-notas {
+    border: solid;
+    border-color: #9f9f9f;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+#tabla-estudiantes .cell-nota{
+    width: 10%;
+}
+
+.input-nota{
+    margin: 0;
+    width: 100px;
+    
+}
+
+#tabla-estudiantes .boton-guardar-notas{
+    margin-right: 5px;
+}
+
+
+
